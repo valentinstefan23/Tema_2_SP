@@ -1,0 +1,12 @@
+Pentru aflarea spectrului de amplitudine al semnalului ne-am folosit de faptul ca modulul coeficientilor
+formeaza spectrul de amplitudine, in timp ce argumentul lor,spectrul de faza. 
+
+Se observa ca in spectrul de amplitudine, armonicele sunt simetrice (si au aceeasi valoare,Ak=A-k) fata de
+armonica fundamentala(A0).
+
+Se observa ca integrala(formula coeficientilor din dezvoltare) poate fi evaluata pe orice interval de lungime
+P al semnalului x(t).
+
+Spectrul de amplitudine este discret, in timp ce semnalul obtinut in urma reconstructiei prin coeficienti Fourier, 
+este continuu.Astfel,pentru afisarea spectrului de amplitudine vom folosi comanda "stem",iar pentru 
+afisarea semnalului reconstruit (sau cel initial) vom folosi comanda "plot".
